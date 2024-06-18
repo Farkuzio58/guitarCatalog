@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GuitarCatalog" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#B40D20</item>
+    </style>
+
+    <style name="CustomCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">#D0E8E7E7</item>
+    </style>
+
+        <style name="CustomConstraintLayoutStyle">
+            <item name="android:background">#D0E8E7E7</item>
+        </style>
+
+    <style name="CustomTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">>
+        <item name="boxStrokeColor">@color/til_light</item>
+        <item name="hintTextColor">#000000</item>
+    </style>
+
+    <style name="MaterialAlertDialog.Rounded" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialAlertDialog.Rounded</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="CustomMaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogTheme">@style/ShapeAppearanceOverlay.MaterialAlertDialog.Rounded</item>
+        <item name="colorSurface">#FCE8E7E7</item> <!-- Cambia este color según tus necesidades -->
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialAlertDialog.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="BottomNavActiveIndicator">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">#B2B40D20</item>
+        <item name="colorOnPrimary">#B2BFFD20</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="shapeAppearance">
+            @style/ShapeAppearance.M3.Comp.NavigationBar.ActiveIndicator.Shape
+        </item>
+        <item name="android:color">#56BDBDBD</item>
+    </style>
+
+    <style name="Theme.GuitarCatalog" parent="Base.Theme.GuitarCatalog" />
+</resources>

@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GuitarCatalog" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">#B40D20</item>
+        <item name="cardBackgroundColor">#424242 </item>
+        <item name="alertDialogTheme">@style/CustomMaterialAlertDialog</item>
+
+    </style>
+
+    <style name="CustomCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">#D0393939</item>
+    </style>
+
+    <style name="CustomConstraintLayoutStyle">
+        <item name="android:background">#D0393939</item>
+    </style>
+
+    <style name="CustomTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">>
+        <item name="boxStrokeColor">@color/til_night</item>
+        <item name="hintTextColor">#FFFFFF</item>
+    </style>
+
+    <style name="CustomMaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogTheme">@style/ShapeAppearanceOverlay.MaterialAlertDialog.Rounded</item>
+        <item name="colorSurface">#FC393939</item> <!-- Cambia este color según tus necesidades -->
+
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialAlertDialog.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="shapeAppearance">
+            @style/ShapeAppearance.M3.Comp.NavigationBar.ActiveIndicator.Shape
+        </item>
+        <item name="android:color">#16BDBDBD</item>
+    </style>
+
+</resources>

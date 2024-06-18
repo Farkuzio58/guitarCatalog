@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/guitarListFragment"
+        android:name="com.farkuzio58.guitarcatalog.ui.list.GuitarListFragment"
+        android:label=""
+        tools:layout="@layout/fragment_guitar_list" >
+        <action
+            android:id="@+id/action_guitarListFragment_to_guitarDetailFragment"
+            app:destination="@id/guitarDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/guitarDetailFragment"
+        android:name="com.farkuzio58.guitarcatalog.ui.detail.GuitarDetailFragment"
+        android:label=""
+        tools:layout="@layout/fragment_guitar_detail" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.farkuzio58.guitarcatalog.ui.main.MainFragment"
+        android:label="@string/mainMenu"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_guitarListFragment"
+            app:destination="@id/guitarListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.farkuzio58.guitarcatalog.ui.main.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/optionsFragment"
+        android:name="com.farkuzio58.guitarcatalog.ui.options.OptionsFragment"
+        android:label="@string/options"
+        tools:layout="@layout/fragment_options" />
+</navigation>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Guitar Catalog</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="brand">Marca</string>
+    <string name="tremolo">Trémolo</string>
+    <string name="strings">Cuerdas</string>
+    <string name="st" translatable="false">Stratocaster</string>
+    <string name="t" translatable="false">Telecaster</string>
+    <string name="dc" translatable="false">Double Cut</string>
+    <string name="sc" translatable="false">Single Cut</string>
+    <string name="other">Otras Guitarras</string>
+    <string name="all">Todas las Guitarras</string>
+    <string name="noDataTitle">"No se encontraron guitarras... "</string>
+    <string name="noFavsInfo">Aún no has añadido ninguna guitarra a favoritos</string>
+    <string name="noConnectionInfo">Comprueba la conexión a internet o configura la dirección del servidor desde el menú opciones</string>
+    <string name="searchHint">Prueba a buscar algo</string>
+    <string name="filters">Filtros:</string>
+    <string name="priceRange">"      Rango de Precio      "</string>
+    <string name="model">Modelo</string>
+    <string name="serverIpHint">IP del servidor</string>
+    <string name="detailId">• Identificador: </string>
+    <string name="detailShape">• Forma: </string>
+    <string name="detailBody">• Cuerpo: </string>
+    <string name="detailNeck">• Mástil: </string>
+    <string name="detailFretboard">• Diapasón: </string>
+    <string name="detailConfig">• Configuración: </string>
+    <string name="detailPickUps">• Pastillas: </string>
+    <string name="detailFrets">• Trastes: </string>
+    <string name="detailStrings">• Número de Cuerdas: </string>
+    <string name="detailTremolo">• Trémolo: </string>
+    <string name="detailPrice">• Precio: </string>
+    <string name="options">Opciones</string>
+    <string name="mainMenu">Menú Principal</string>
+    <string name="favGuitars">Guitarras Favoritas</string>
+    <string name="guitars">Guitarras</string>
+    <string name="guitarSearch">Buscador de Guitarras</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="language">"Idioma  "</string>
+    <string name="bfdMessage">Asegurate de introducir correctamente la dirección IP del servidor</string>
+    <string name="bfdAttention">Atención</string>
+    <string name="appConfig">Configurar Aplicación</string>
+    <string name="documentation">Documentacion</string>
+    <string name="adminManual">Manual del Administrador</string>
+    <string name="userManual">Manual del Usuario</string>
+    <string name="ipAddress">IP del Servidor</string>
+    <string name="downloadSuccess">PDF descargado en la carpeta de descargas</string>
+    <string name="downloadFail">Error al descargar el PDF</string>
+    <string name="downloading">Descargando...</string>
+    <string name="downloadRequest">Se necesitan permisos para descargar el archivo</string>
+    <string name="deleteData">Borrar datos de la Aplicación</string>
+    <string name="ddfdMessage">¿Seguro que desea borrar los datos de la aplicación?</string>
+    <string name="data">Datos</string>
+    <string name="noDetailTitle">No hay conexión a internet</string>
+    <string name="detailError">Error</string>
+    <string name="brandAsc">Marca ↑</string>
+    <string name="brandDesc">Marca ↓</string>
+    <string name="priceAsc">Precio ↑</string>
+    <string name="priceDesc">Precio ↓</string>
+    <string name="sortBy">Ordenar Por</string>
+</resources>
