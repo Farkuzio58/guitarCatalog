@@ -110,7 +110,7 @@ class OptionsFragment : Fragment(), BaseFragmentDialog.DialogListener {
     }
 
     private fun downloadPdf() {
-        val files = listOf("uitar_catalog_admin_documentation", "uitar_catalog_user_documentation")
+        val files = listOf("guitar_catalog_admin_documentation", "guitar_catalog_user_documentation")
         val inputStream: InputStream = if(document == 0)
             resources.openRawResource(com.farkuzio58.guitarcatalog.R.raw.guitar_catalog_admin_documentation)
         else
